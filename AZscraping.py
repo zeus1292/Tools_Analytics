@@ -79,9 +79,11 @@ def get_aiipp(link):
     u = results_page.find('div',class_='a-subheader a-breadcrumb feature').find_all('li')[4].find('a',class_='a-link-normal a-color-tertiary').get_text().replace('\n','').strip()
     book_category2.append(u)
     
-    v = # Need to figure out how to click 'read more', then add all text pieces into one string
-    book_description.append(v)
+    #v = # Need to figure out how to click 'read more', then add all text pieces into one string
+    #book_description.append(v)
     
+    from time import sleep
+    sleep(20)
     
     
 
