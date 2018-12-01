@@ -1,4 +1,4 @@
-![alt text](https://static1.squarespace.com/static/565d55a7e4b0924c37da3b36/565f1f3fe4b02e4017e2c55a/565f20fce4b0db530927e504/1449075077804/logo_mahalo2rgb.jpg?format=750w)
+![alt text](https://static1.squarespace.com/static/565d55a7e4b0924c37da3b36/565f1f3fe4b02e4017e2c55a/565f20fce4b0db530927e504/1449075077804/logo_mahalo2rgb.jpg?format=250w)
 ## Contributors
 Members: Akshay Kumar, Emilia Dwyer, Zhuo (Lily) Wang, Muskan Jain
 <br />Section: 002
