@@ -9,16 +9,25 @@ Mahalo is designed for publishers/writers looking for guidance on how to describ
 <ul>
   <li> <b> Master</b>: <ul>
     <li><i>FinalCode.ipynb:</i>  final code to run
+    <li><i>AZscraping.ipynb:</i>  working file before savings out as FinalCode.ipynb
       <li> <i>##.png:</i>  contains exported WordCloud images
         <li> <i>batch#.csv:</i>  batches of AZ scrape that were merged into final df_processed.csv
-        <li><i>requirements.txt:</i>  package requirements for FinalCode
+        <li><i>requirements.txt:</i>  package requirements for FinalCode.ipynb
     <li><i>amazon_com_extras.csv:</i>  kaggle dataframe</ul>
  
 </ul>
 
 ## Run Instructions
-You have a paramount decision to make that will define who you are as a human. You can either hit Ctrl+Enter or Shift+Enter to run code cells. Choose wisely. Good luck. Use 'Final Code' file on <b>master</b> branch.
-
+Use 'Final Code.ipynb' file on <b>master</b> branch. 
+<p>You have a paramount decision to make that will define who you are as a human. You can either hit Ctrl+Enter or Shift+Enter to run code cells. Choose wisely. </p>
+<p></p>
+<p>
+  You do not need to run the code from <b>"Combine in all AZscrape batches 1-7"</b> and above, as this scraping and merger was already performed and saved out in df_processed.csv. Steps as follows:
+<ul>
+  <li> Change <b>patha</b> variable in <b>"Read in processed df"</b> to where you download the input file (df_processed.csv)
+    <li> Begin running at MD reading <b>"Read in processed df"</b>
+      <li> Learn about super cool discoveries
+      </ul>
 <p>The following is a high level overview of how the code runs:
 <ol>
 <li> Read in download Kaggle df and instantiate a new file in your directory in the variable my_csvfile
