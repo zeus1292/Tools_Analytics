@@ -1,0 +1,22 @@
+Package Requirements:
+
+pandas
+random
+bs4
+numpy
+requests
+time
+json
+os
+re
+matplotlib.pyplot
+wordcloud
+PIL
+seaborn
+scipy
+collections
+gensim
+nltk
+plotly
+pprint
+operator 
