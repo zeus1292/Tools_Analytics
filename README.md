@@ -6,3 +6,21 @@ Members: Akshay Kumar, Emilia Dwyer, Zhuo (Lily) Wang, Muskan Jain
 Mahalo is designed for publishers/writers looking for guidance on how to describe their book on Amazon to garner the most positive reviews. It is meant to be a preliminary tool to facilitate initial brainstorming sessions when constructing a new book’s landing page. Given an input of ***** the tool provides Word Clouds printed by category and topic. Categories and topics are generated from a [static dataframe provided by Kaggle](https://www.kaggle.com/ucffool/amazon-sales-rank-data-for-print-and-kindle-books) and a corresponding scrape of data by unique key,  ASIN.
 ## Run Instructions
 You have a paramount decision to make that will define who you are as a human. You can either hit Ctrl+Enter or Shift+Enter to run code cells. Choose wisely. Good luck.
+The following is a high level overview of how the code runs
+<ol>
+<li> Read in download Kaggle df and instantiate a new file in your directory in the variable my_csvfile
+<li>Run scraper for entirety of Kaggle df and save to new file (note: the team ran in batches and merged all files in the end)
+<li>Using processed csv clean df to prepare for analysis
+<li> Produce WordCloudfor entire df
+<li> Using cleaned data to present a plot of gamma distribution for 'Rating'
+<li> To get a sense of data, produce a bargraph for top and bottom 15 publishers
+<li> Finding the proportion of books in each category through a pie chart analysis
+<li> In order to understand which price range has the highest rating, plotting a graph between category and the mean of user rating in each price range
+<li>Topic Modeling for each category (df grouped by rating) {three topics per category} with a WordCloud representation
+<li> Create LSI model from entire df
+<li> Create LDA model from entire df to compute conditional probabilities for topic word set
+</ol>
+## Key Takeaways
+<u1>
+  <li> abc
+    <li> def
