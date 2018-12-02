@@ -7,8 +7,14 @@ Mahalo is designed for publishers/writers looking for guidance on how to describ
 
 ## Branch Setup
 <ul>
-  <li> <b> Master</b>: Contains FinalCode 
-  <li> <b> Storage</b>: WordCloud images, batch files of Amazon scrape
+  <li> <b> Master</b>: <ul>
+    <li><i>FinalCode.ipynb:</i>  final code to run
+      <li> <i>##.png:</i>  contains exported WordCloud images
+        <li> <i>batch#.csv:</i>  batches of AZ scrape that were merged into final df_processed.csv
+        <li><i>requirements.txt:</i>  package requirements for FinalCode
+    <li><i>amazon_com_extras.csv:</i>  kaggle dataframe</ul>
+ 
+</ul>
 
 ## Run Instructions
 You have a paramount decision to make that will define who you are as a human. You can either hit Ctrl+Enter or Shift+Enter to run code cells. Choose wisely. Good luck. Use 'Final Code' file on <b>master</b> branch.
