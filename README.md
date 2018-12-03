@@ -37,7 +37,6 @@ Use 'Final Code.ipynb' file on <b>master</b> branch.
 <li> Using cleaned data to present a plot of gamma distribution for 'Rating'
 <li> To get a sense of data, produce a bargraph for top and bottom 15 publishers
 <li> Finding the proportion of books in each category through a pie chart analysis
-<li> In order to understand which price range has the highest rating, plotting a graph between category and the mean of user rating in each price range
 <li>Topic Modeling for each category (df grouped by rating) {three topics per category} with a WordCloud representation
 <li> Create LSI model from entire df
 <li> Create LDA model from entire df to compute conditional probabilities for topic word set
@@ -45,6 +44,16 @@ Use 'Final Code.ipynb' file on <b>master</b> branch.
 
 ## Key Takeaways 
 
-<u1>
-  <li> abc
-    <li> def
+<ol>
+<li>Books rated between 4 and 5 had the following common words that people should generally use for their book descriptions (especially if they plan to use Amazon as a platform to sell their books) - <ul><li>American, People, Family, Year, Reader, Novel</ul>
+<li>The distribution of book ratings follows a Gamma function.
+<li>After reviewing the data for the publishers, we realized that <ul><li>Wiley, Simon and Schuster, St. Martin's Press and Harper Collins all have more than 10 titles to their name
+<li>We had quite a few publishers that had an average rating of 5, like 1984 Publishing, Advantage Media Group, Archway, Beltz etc., but this was owing to the rating not being weighted.</ul>
+<li>As indicated by our Pie Chart, you can notice that the distribution of books over categories is :
+  <ul><li>Based on the data we analyzed, 51.8% books belonged to category 1, i.e. Rating >= 4.5</ul>
+<li>Our tool will export the word cloud per topic per Category as an image which you can use to identify which words can be used to write descriptions that may get you a better rating, in our case we used our categories to plot the distribution of words over 3 topics.
+<li>Using Latent Semantic Indexing, our tool is able to suggest a Category of rating for given book descriptions (in our case we used 2 descriptions, both of which were assigned a category of 5 and 1 respectively, i.e. a rating between 2.5 and 3, and a rating between 5 and 4.5.
+<li>Finally, we ran the LDA model on the entire dataset(disregarding categories) to identify words distributed over 3 topics, 
+<ul><li>Topic 1 : Time, World, Book, Stori, Life, Histori, Year, Power, American, Polit, Photograph
+<li>Topic 2 : Book, Life, Time, World, Stori, Live, Love, Like, Work, Author, Bestsel, Best
+<li>Topic 3 : Book, Time, Stori, World, Nation, Park, York, Life, Love, Year, Power, Famili, American
